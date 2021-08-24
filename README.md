@@ -13,7 +13,11 @@ A Simple Discord.js Bot Template for V13.x
 The bot should start and you can start developing!
 This Template uses [nodemon](https://www.npmjs.com/package/nodemon), so the bot will automatically restart after a change was made.
 
-
 ##
+
+## Notes:
+
+- This Bot does Only Support Application Commands -> Slash Commands, Context Menu Interactions,..
+- Go to ``handler/index.js`` line **30 - 32** to activate and push the commands to the public!
 
 Made by Sebi
