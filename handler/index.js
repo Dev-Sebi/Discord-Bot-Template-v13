@@ -26,7 +26,7 @@ const globPromise = promisify(glob);
 
     client.on("ready", async (client) => {
         console.log(`Logged in as ${client.user.tag}!`);
-        console.log(`Currently in ${client.guilds.cache.size = 1 ? "Server" : "Servers"}`);
+        console.log(`Currently in ${client.guilds.cache.size} ${client.guilds.cache.size = 1 ? "Server" : "Servers"}`);
         // const f = await client.application.commands.fetch()
         // f.forEach(cmd => cmd.delete())
         //await client.application.commands.set(ArrayOfApplicationCommands); // if you want to update every guild the server is in (up to 1 hour for the update to complete)
