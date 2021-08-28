@@ -8,7 +8,7 @@ const wait = require('util').promisify(setTimeout);
 const moment = require('moment');
 
 module.exports = {
-    name: "exampleSlash",
+    name: "exampleslash",
     description: "This is an example of a Slash Command",
     type: 1,
 
