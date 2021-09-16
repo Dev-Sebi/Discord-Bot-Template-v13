@@ -21,7 +21,7 @@ module.exports = {
     
     execute: async (client, interaction, args) => {
         
-        interaction.followUp("Slash Command Example")
+        interaction.reply("Slash Command Example")
 
     },
 };

@@ -20,7 +20,7 @@ module.exports = {
     
     execute: async (client, interaction, args) => {
         
-        interaction.followUp("Message Command")
+        interaction.reply("Message Command")
 
     },
 };
