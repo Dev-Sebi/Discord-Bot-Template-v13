@@ -17,7 +17,7 @@ This Template uses [nodemon](https://www.npmjs.com/package/nodemon), so the bot 
 
 - This Bot does Only Support Application Commands -> Slash Commands, Context Menu Interactions,..
 - Go to ``handler/index.js`` line **30 - 32** to activate and push the commands to the public!
-- This template is based on a Node.js Application using [Discord.js](https://discord.js.org/) V13.10
+- This template is based on a Node.js Application using [Discord.js](https://discord.js.org/) V13.40
 
 ##
 
