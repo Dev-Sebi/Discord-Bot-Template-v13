@@ -12,7 +12,6 @@ const globPromise = promisify(glob);
 
     const eventFiles = await globPromise(`${process.cwd()}/events/*.js`);
     eventFiles.map((value) => require(value));
-    // test
     const ApplicationCommands = await globPromise(`${process.cwd()}/ApplicationCommands/*/*/*.js`);
 
     const ArrayOfApplicationCommands = [];
