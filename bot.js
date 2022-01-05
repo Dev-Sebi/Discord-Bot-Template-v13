@@ -17,4 +17,3 @@ client.ArrayOfApplicationCommands = new Discord.Collection();
 require("./handler")(client);
 
 client.login(process.env.TOKEN);
-//test
