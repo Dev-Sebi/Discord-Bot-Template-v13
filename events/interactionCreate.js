@@ -27,6 +27,5 @@ client.on("interactionCreate", async (interaction) => {
     catch(error)
     {
         console.log("Error in /events/interactionCreate.js", error)
-
     }
 });
